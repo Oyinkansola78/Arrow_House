@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body{
+font-family: 'Montserrat', sans-serif;
+font-size: 22px;
+}
+
+.select{
+    cursor: pointer;
+}
+
+.bluey:hover{
+    color: #232464;
+}
+
+.blueish{
+    color: #232464;
+}
+
+.bluey-bg{
+    background-color: #232464;
+    color:#fff;
+}
+/* .bluey-bg:hover{
+    background-color: #232464;
+    color:#2b89c6;
+} */
+
+.show-home{
+    /* height: 100vh;
+    width: 100vh; */
+    width: 100%;
+    height: 65vh;
+    /* position:absolute;
+    z-index:-1;
+    top:10;
+    left:0;
+    right:0;
+    width:100%; 
+    height:60vh; */
+    object-fit: cover;
+    /* clip-path: polygon(0 0, 100% 0, 0 100% 30%, 0 100%); */
+    /* clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%); */
+    clip-path: polygon( 0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+.intro-p{
+    line-height: 2;
+    font-weight: 700;
+}
+
+.intro-head{
+    font-weight: 700;
+}
+
+.card{
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 22%;
+    height: 370px;
+    cursor: pointer;
+}
+
+.card:hover{
+    border-color: #232464;
+    width: 21%;
+    height: 360px;
+}
+.bold{
+    font-weight: bold;
+}
