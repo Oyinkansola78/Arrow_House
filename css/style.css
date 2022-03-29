@@ -12,15 +12,20 @@ font-size: 22px;
 }
 
 .bluey:hover{
-    color: #232464;
+    color: #826eb5;
+}
+
+.blacky{
+    color: #000;
 }
 
 .blueish{
-    color: #232464;
+    /* color: #232464; */
+    color: #826eb5;
 }
 
 .bluey-bg{
-    background-color: #232464;
+    background-color: #826eb5;
     color:#fff;
 }
 /* .bluey-bg:hover{
