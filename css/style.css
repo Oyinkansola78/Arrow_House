@@ -7,6 +7,10 @@ font-family: 'Montserrat', sans-serif;
 font-size: 22px;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .select{
     cursor: pointer;
 }
@@ -24,6 +28,11 @@ font-size: 22px;
     color: #826eb5;
 }
 
+.blueish-bg{
+    background-color: #202066;
+    color: #fff;
+}
+
 .bluey-bg{
     background-color: #826eb5;
     color:#fff;
@@ -32,6 +41,26 @@ font-size: 22px;
     background-color: #232464;
     color:#2b89c6;
 } */
+
+.img-resize{
+    max-width: 100%;
+}
+
+.img-resize2{
+    max-width: 15%;
+    max-height: 10%;
+}
+
+.img-resize3{
+    max-width: 100%;
+    max-height: 450px;
+}
+
+.text-resize{
+    text-align: left;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
 
 .show-home{
     /* height: 100vh;
@@ -81,3 +110,49 @@ font-size: 22px;
 .bold{
     font-weight: bold;
 }
+
+.text-custom{
+    line-height: 2.1;
+}
+
+.text-custom-head{
+    line-height: 1.9;
+}
+
+.clean-list{
+    color: #826eb5;
+}
+
+.clean-list:hover{
+    color: #000;
+}
+
+.contain{
+    max-width: 96%;
+}
+
+.zoom-effect{
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.zoom-effect:hover{
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+
+.display-block{
+    display: block;
+}
+
+.footer-wide{
+    width: 200px;
+}
+
+/* .img-change{
+    filter: gray; 
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  background-blend-mode: luminosity;
+} */
