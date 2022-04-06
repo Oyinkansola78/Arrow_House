@@ -5,8 +5,8 @@
 body{
 font-family: 'Montserrat', sans-serif;
 font-size: 22px;
-background-color: #171b21;
-color: #fff;
+/* background-color: #171b21; */
+/* color: #fff; */
 }
 
 .text-center{
@@ -28,10 +28,11 @@ color: #fff;
 .blueish{
     /* color: #232464; */
     color: #826eb5;
+    /* color: #171b21; */
 }
 
 .blueish-bg{
-    background-color: #202066;
+    background-color: #171b21;
     color: #fff;
 }
 
@@ -107,6 +108,10 @@ color: #fff;
     margin-left: 14rem;
 }
 
+.intro-spotify{
+    margin-left: 29rem;
+}
+
 .intro-p{
     line-height: 2;
     font-weight: 700;
@@ -129,10 +134,47 @@ color: #fff;
     cursor: pointer;
 }
 
+.card_recording{
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+    height: 350px;
+    cursor: pointer;
+}
+
+.card_eng{
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    /* margin: 10px; */
+    /* text-align: center; */
+    width: 40%;
+    height: 550px;
+    cursor: default;
+    /* padding-left: 20px; */
+}
+
+.pr{
+    padding-right: 20px;
+}
+
 .card:hover{
     border-color: #826eb5;
     width: 21%;
     height: 360px;
+}
+
+.card_recording:hover{
+    border-color: #826eb5;
+    width: 29%;
+    height: 345px;
 }
 
 .card2{
@@ -154,6 +196,12 @@ color: #fff;
 
 .text-custom{
     line-height: 2.1;
+}
+
+.recording_text{
+    font-size: 17px;
+    line-height: 1.7;
+    /* padding-top: 20px; */
 }
 
 .text-custom-head{
@@ -240,21 +288,27 @@ color: #fff;
   }
   
   .bodyy:hover .overlay {
-    opacity: 0.7;
+    opacity: 0.9;
   }
   
   .text {
     color: #333;
     font-size: 20px;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
+    width: 90%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: justify;
   }
 
+  .text-btn{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+  }
 /*
 
 .signUp{
