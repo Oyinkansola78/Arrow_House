@@ -74,6 +74,11 @@ font-size: 22px;
     height: 700px
 }
 
+.img-resize_services{
+    width: 30%;
+    height: 100%;
+}
+
 .text-resize{
     text-align: left;
     font-size: 20px;
@@ -267,11 +272,6 @@ font-size: 22px;
     width: 100%;
     height: auto;
   } */
-
-  .img-resize_services{
-      height: 55vh;
-      cursor: pointer;
-  }
   
   .overlay {
     position: absolute;
