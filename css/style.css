@@ -81,7 +81,6 @@ font-size: 22px;
 
 .img-resize_service{
     height: 55vh;
-    /* cursor: pointer; */
 }
 
 .round-img{
@@ -224,6 +223,10 @@ font-size: 22px;
 
 .adr_card{
     width: 50%;
+}
+
+.adr_card2{
+    width: 40%;
 }
 
 .bold{
