@@ -79,6 +79,15 @@ font-size: 22px;
     height: 100%;
 }
 
+.img-resize_service{
+    height: 55vh;
+    /* cursor: pointer; */
+}
+
+.round-img{
+    max-width: 70%;
+}
+
 .text-resize{
     text-align: left;
     font-size: 20px;
@@ -195,6 +204,15 @@ font-size: 22px;
     /* text-align: center; */
 }
 
+.podcast_card{
+    width: 80%;
+    /* background-color: red; */
+}
+
+.adr_card{
+    width: 50%;
+}
+
 .bold{
     font-weight: bold;
 }
@@ -284,7 +302,7 @@ font-size: 22px;
     opacity: 0;
     transition: .5s ease;
     background-color: #fff;
-    cursor: pointer;
+    cursor: default;
   }
   
   .bodyy:hover .overlay {
