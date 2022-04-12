@@ -32,6 +32,7 @@ font-size: 22px;
 }
 
 .blueish-bg{
+    /* background-color: #171b21; */
     background-color: #171b21;
     color: #fff;
 }
@@ -119,10 +120,6 @@ font-size: 22px;
 
 .intro{
     margin-left: 14rem;
-}
-
-.intro-spotify{
-    margin-left: 29rem;
 }
 
 .intro-p{
@@ -229,6 +226,31 @@ font-size: 22px;
     width: 40%;
 }
 
+.studio_tour_card{
+    height: 500px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 90%;
+    width: 80%;
+    /* height: 370px; */
+    /* cursor: pointer; */
+}
+
+.contact_card{
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
 .bold{
     font-weight: bold;
 }
@@ -253,6 +275,14 @@ font-size: 22px;
 
 .clean-list:hover{
     color: #000;
+}
+
+.clean-list_white{
+    color: #fff;
+}
+
+.clean-list_white:hover{
+    color: #826eb5;
 }
 
 .contain{
@@ -280,10 +310,19 @@ font-size: 22px;
 
 .display-block{
     display: block;
+    padding-top: 20px;
 }
 
 .footer-wide{
     width: 200px;
+}
+
+.footer-wid{
+    width: 180px;
+}
+
+#footer{
+    font-size: 20px;
 }
 
 .grid{
@@ -343,6 +382,7 @@ font-size: 22px;
     top: 65%;
     left: 40%;
   }
+
 /*
 
 .signUp{
