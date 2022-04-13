@@ -25,6 +25,10 @@ font-size: 22px;
     color: #826eb5;
 }
 
+.bluey-bottom{
+    border-bottom-color: red;
+}
+
 .blacky{
     color: #000;
 }
