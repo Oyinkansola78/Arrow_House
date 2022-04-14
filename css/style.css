@@ -301,7 +301,8 @@ font-size: 22px;
 }
 
 .clean-list{
-    color: #826eb5;
+    /* color: #826eb5; */
+    color: #171b21;
 }
 
 .clean-list:hover{
@@ -313,7 +314,8 @@ font-size: 22px;
 }
 
 .clean-list_white:hover{
-    color: #826eb5;
+    /* color: #826eb5; */
+    color: #fff;
 }
 
 .contain{
