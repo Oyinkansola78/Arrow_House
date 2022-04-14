@@ -318,6 +318,16 @@ font-size: 22px;
     color: #fff;
 }
 
+.text-list{
+    text-decoration: none;
+    color: #333;
+}
+
+.text-list:hover{
+    text-decoration: none;
+    color: #333;
+}
+
 .contain{
     max-width: 96%;
 }
