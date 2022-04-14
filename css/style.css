@@ -39,7 +39,8 @@ font-size: 22px;
 
 .blueish{
     /* color: #232464; */
-    color: #826eb5;
+    /* color: #826eb5; */
+    color: red;
     /* color: #171b21; */
 }
 
@@ -49,8 +50,20 @@ font-size: 22px;
 }
 
 .bluey-bg{
-    background-color: #826eb5;
-    color:#fff;
+    /* background-color: #826eb5; */
+    /* color:#fff; */
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000 ;
+}
+
+.bluey-bg:hover{
+    /* background-color: #826eb5; */
+    /* color:#fff; */
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000 ;
+    cursor: pointer;
 }
 /* .bluey-bg:hover{
     background-color: #232464;
