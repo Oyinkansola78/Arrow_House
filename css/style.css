@@ -347,10 +347,23 @@ font-size: 22px;
     transition: 0.3s ease-in-out;
 }
 
+.zoom-effect3{
+    cursor: pointer;
+    transform: scale(1);
+    /* transition: 0.3s ease-in-out; */
+    transition: 0.4s ease-out;
+}
+
+.zoom-effect3:hover{
+    transform: scale(1.1);
+    /* opacity: 0.5; */
+}
+
 .zoom-effect:hover{
     transform: scale(0.9);
     opacity: 0.5;
 }
+
 .zoom-effect2:hover{
     transform: scale(0.9);
 }
