@@ -22,7 +22,8 @@ font-size: 22px;
 }
 
 .bluey:hover{
-    color: #826eb5;
+    /* color: #826eb5; */
+    color: red;
 }
 
 .blacky{
