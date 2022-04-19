@@ -46,6 +46,10 @@ font-size: 22px;
     /* color: #171b21; */
 }
 
+.blueish:hover{
+    color: #000;
+}
+
 .blueish-bg{
     background-color: #171b21;
     color: #fff;
@@ -108,6 +112,11 @@ font-size: 22px;
 
 .img-resize_service{
     height: 55vh;
+}
+
+.img-resize_gallery{
+    width: 30%;
+    height: 30%;
 }
 
 .round-img{
@@ -184,7 +193,7 @@ font-size: 22px;
     text-align: center;
     width: 30%;
     height: 350px;
-    cursor: pointer;
+    cursor: default;
 }
 
 .card_film{
@@ -334,6 +343,10 @@ font-size: 22px;
 
 .contain-text{
     max-width: 90%;
+}
+
+.contain-text2{
+    max-width: 85%;
 }
 
 .contain-email{
