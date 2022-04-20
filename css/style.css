@@ -152,6 +152,24 @@ font-size: 22px;
     clip-path: polygon( 0 0, 100% 0, 100% 100%, 0 90%);
 }
 
+.show-home_pod{
+    /* height: 100vh;
+    width: 100vh; */
+    width: 100%;
+    height: 85vh;
+    /* position:absolute;
+    z-index:-1;
+    top:10;
+    left:0;
+    right:0;
+    width:100%; 
+    height:60vh; */
+    object-fit: cover;
+    /* clip-path: polygon(0 0, 100% 0, 0 100% 30%, 0 100%); */
+    /* clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%); */
+    clip-path: polygon( 0 0, 100% 0, 100% 100%, 0 90%);
+}
+
 .studio_img{
     width: 100%;
     height: 70vh;
