@@ -573,7 +573,7 @@ figcaption {
 
 @media only screen and (max-width: 1000px){
     body{
-        /* background-color: red; */
+        background-color: blue;
     }
 
     .intro-head{
