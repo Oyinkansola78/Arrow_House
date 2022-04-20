@@ -495,6 +495,10 @@ figcaption {
     display: flex;
 }
 
+.no-d{
+    display: none;
+}
+
 /* .no-grid{
     display: grid;
     grid-template-columns: repeat(3,2fr);
@@ -503,9 +507,9 @@ figcaption {
 /* mobile and desktop toggle show and hide*//*media query*/
 
 @media only screen and (max-width: 1284px){
-    /* body{
-        display: none;
-    } */
+    body{
+        background-color: red;
+    }
 
     #nav-show{
         display: none;
@@ -630,6 +634,14 @@ figcaption {
 
     .text-resize-grid{
         font-size: 18px;
+    }
+
+    .no{
+        display: none;
+    }
+
+    .no-d{
+        display: block;
     }
 
 }
