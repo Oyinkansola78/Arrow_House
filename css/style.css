@@ -156,7 +156,7 @@ font-size: 22px;
     /* height: 100vh;
     width: 100vh; */
     width: 100%;
-    height: 75vh;
+    height: 70vh;
     /* position:absolute;
     z-index:-1;
     top:10;
@@ -177,7 +177,7 @@ font-size: 22px;
 }
 
 .intro{
-    margin-left: 14rem;
+    margin-left: 13rem
 }
 
 .intro-p{
@@ -219,6 +219,12 @@ font-size: 22px;
     cursor: default;
 }
 
+.card_recording:hover{
+    border-color: #826eb5;
+    width: 29%;
+    height: 345px;
+}
+
 .card_film{
     background-color: #fff;
     color: #333;
@@ -254,12 +260,6 @@ font-size: 22px;
     border-color: #826eb5;
     width: 21%;
     height: 360px;
-}
-
-.card_recording:hover{
-    border-color: #826eb5;
-    width: 29%;
-    height: 345px;
 }
 
 .card2{
@@ -513,9 +513,15 @@ figcaption {
     display: flex;
 }
 
+.no-flex2{
+    display: flex;
+}
+
 .no-d{
     display: none;
 }
+
+
 
 /* .no-grid{
     display: grid;
@@ -524,9 +530,16 @@ figcaption {
 
 /* mobile and desktop toggle show and hide*//*media query*/
 
+@media only screen and (min-width: 992px){
+    .show-md{
+        display: none;
+    }
+}
+
+
 @media only screen and (max-width: 1284px){
     body{
-        background-color: red;
+        /* background-color: greenyellow; */
     }
 
     #nav-show{
@@ -534,7 +547,7 @@ figcaption {
     }
 
     .studio_intro .intro{
-        margin-left: 10rem;
+        margin-left: 9rem;
     }
 
     .bodyy{
@@ -565,6 +578,39 @@ figcaption {
     width: 235px;
 }
 
+#footer{
+    font-size: 17px;
+}
+
+.img-resize4{
+    width: 100%;
+    height: 500px;
+}
+
+.card_film{
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    /* padding: 0; */
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    cursor: default;
+}
+
+.vibe-video{
+    width: 870px;
+    height: 550px;
+}
+
+.adr_card2{
+    width: 90%;
+    margin-top: 30px;
+}
+
+
 /* .footer-wid{
     width: 180px;
 } */
@@ -573,7 +619,7 @@ figcaption {
 
 @media only screen and (max-width: 1000px){
     body{
-        background-color: blue;
+        /* background-color: indianred; */
     }
 
     .intro-head{
@@ -606,10 +652,6 @@ figcaption {
         display: block;
     }
 
-    .no-flex{
-        display: block;
-    }
-
     #footer{
         font-size: 16px;
     }
@@ -625,6 +667,10 @@ figcaption {
 
     .contain-text{
         max-width: 85%;
+    }
+
+    .contain-text2{
+        max-width: 100%;
     }
 
     .contain{
@@ -662,14 +708,120 @@ figcaption {
         display: block;
     }
 
+    .adr_card2{
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .vibe-video{
+        width: 860px;
+        height: 550px;
+    }
+
 }
 
-/* @media only screen and (max-width: 1000px){
+@media only screen and (max-width: 991px){
     body{
-        dis
+        background-color: plum;
+    }   
+
+    /* .show-md{
+        display: flex;
+    } */
+
+    .show-lg{
+        /* background-color: red; */
+        display: none;
+    }
+
+    .footer-wide{
+        width: 230px;
+        margin: 15px;
+    }
+
+    /* .footer-wid{
+        width: 120px;
+    } */
+
+    #footer{
+        font-size: 14px;
+    }
+
+    .img-resize4{
+        width: 100%;
+        height: 400px;
+    }
+
+    /* .contain-text2{
+        max-width: 85%;
+    }
+
+    .contain-text3{
+        max-width: 100%;
+    } */
+
+    .intro{
+        margin-left: 1rem;
+    }
+
+    .no-flex2{
+        display: block;
+    }
+
+    .card_recording{
+        background-color: #fff;
+        color: #333;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+        width: 100%;
+        /* height: 270px; */
+        height: 70%;
+        cursor: default;
+    }
+
+    .card_recording:hover{
+        /* border-color: #826eb5; */
+        width: 98%;
+        /* height: 270px; */
+        height: 60%;
+    }
+
+    .vibe-video{
+        width: 860px;
+        height: 550px;
+    }
+
+}
+
+
+/* @media only screen and (max-width: 575.98px){
+    body{
+        background-color: red;
+    }
+}
+@media only screen and (max-width: 767.98px){
+    body{
+        background-color: rebeccapurple;
     }
 } */
-
+/* @media only screen and (max-width: 991.98px){
+    body{
+        background-color: yellowgreen;
+    }
+} */
+@media only screen and (max-width: 1399.98px){
+    /* body{
+        background-color: saddlebrown;
+    }
+     */
+    .vibe-video{
+        width: 960px;
+        height: 650px;
+    }
+}
 
 /* #nav-show{
     display: none;
