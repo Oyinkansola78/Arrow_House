@@ -17,6 +17,11 @@ font-size: 22px;
     text-align: center;
 }
 
+.center{
+    margin-left: 34rem;
+    margin-bottom: 5px;
+}
+
 .select{
     cursor: pointer;
 }
@@ -521,6 +526,18 @@ figcaption {
     display: none;
 }
 
+.vibe-video-small{
+    display: none;
+}
+
+.btn-small{
+    display: none;
+}
+
+.show-me-sm{
+    display: none;
+}
+
 
 
 /* .no-grid{
@@ -714,15 +731,19 @@ figcaption {
     }
 
     .vibe-video{
-        width: 860px;
-        height: 550px;
+        width: 260px;
+        height: 250px;
+    }
+
+    .intro-email{
+        margin-left: 20rem;
     }
 
 }
 
 @media only screen and (max-width: 991px){
     body{
-        background-color: plum;
+        /* background-color: plum; */
     }   
 
     /* .show-md{
@@ -789,11 +810,81 @@ figcaption {
         height: 60%;
     }
 
-    .vibe-video{
-        width: 860px;
-        height: 550px;
+    .vibe-video-big{
+        display: none;
     }
 
+    .vibe-video-small{
+        display: block;
+    }
+
+    .btn-big{
+        display: none;
+    }
+
+    .btn-small{
+        display: block;
+    }
+
+    .no-d{
+        display: none;
+    }
+
+    .contact_card{
+        background-color: #fff;
+        color: #333;
+        border-radius: 25px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        margin: 10px;
+        /* text-align: center; */
+        font-size: 20px;
+    }
+
+    .intro-email{
+        margin-left: 18rem;
+    }
+
+}
+
+@media only screen and (max-width: 767.98px){
+    body{
+        /* background-color: rebeccapurple; */
+    }
+
+    .show-me-bg{
+        display: none;
+    }
+
+    .show-me-sm{
+        display: block;
+    }
+
+    .show-md{
+        display: none;
+    }
+
+    .img-resize{
+        width: 90%;
+    }
+
+    .footer-wide{
+        width: 700px;
+        margin: 15px;
+    }
+
+    #footer{
+        font-size: 20px;
+    }
+
+    .footer-text{
+        font-size: 34px;
+    }
+
+    .link-wide{
+        margin-left: 210px;
+        width: 40%;
+    }
 }
 
 
@@ -801,17 +892,8 @@ figcaption {
     body{
         background-color: red;
     }
-}
-@media only screen and (max-width: 767.98px){
-    body{
-        background-color: rebeccapurple;
-    }
 } */
-/* @media only screen and (max-width: 991.98px){
-    body{
-        background-color: yellowgreen;
-    }
-} */
+
 @media only screen and (max-width: 1399.98px){
     /* body{
         background-color: saddlebrown;
