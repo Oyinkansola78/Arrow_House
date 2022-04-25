@@ -68,6 +68,22 @@ font-size: 22px;
     border: 1px solid #000 ;
 }
 
+.bluey-bg-whatsapp{
+    /* background-color: #826eb5; */
+    /* color:#fff; */
+    background-color: #25D366;
+    color: #fff;
+    border: 1px solid #25D366 ;
+}
+
+.bluey-bg-whatsapp:hover{
+    /* background-color: #826eb5; */
+    /* color:#fff; */
+    background-color: #25D366;
+    color: #000;
+    border: 1px solid #25D366 ;
+}
+
 .bluey-bg:hover{
     /* background-color: #826eb5; */
     /* color:#fff; */
