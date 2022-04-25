@@ -566,6 +566,14 @@ figcaption {
     display: none;
 }
 
+.show-me-footer-sm{
+    display: none;
+}
+
+.show-me-footer-xs{
+    display: none;
+}
+
 
 
 /* .no-grid{
@@ -858,6 +866,10 @@ figcaption {
         display: none;
     }
 
+    .no{
+        display: block;
+    }
+
     .contact_card{
         background-color: #fff;
         color: #333;
@@ -888,6 +900,10 @@ figcaption {
         /* background-color: rebeccapurple; */
     }
 
+    .no{
+        display: none;
+    }
+
     .show-me-bg{
         display: none;
     }
@@ -898,6 +914,14 @@ figcaption {
 
     .show-me-grid-sm{
         display: grid;
+    }
+
+    .show-me-footer-xs{
+        display: none;
+    }
+
+    .show-me-footer-sm{
+        display: block;
     }
 
     .show-md{
@@ -937,11 +961,68 @@ figcaption {
 }
 
 
-/* @media only screen and (max-width: 575.98px){
+@media only screen and (max-width: 575.98px){
     body{
-        background-color: red;
+        /* background-color: yellow; */
     }
-} */
+
+    .show-me-footer-sm{
+        display: none;
+    }
+
+    .show-me-footer-xs{
+        display: block;
+    }
+
+    .link-wide{
+        margin-left: 160px;
+        width: 40%;
+    }
+
+    .card{
+        background-color: #fff;
+        color: #333;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        margin: 7px;
+        /* margin-right: 550px; */
+        text-align: center;
+        width: 95%;
+        /* height: 270px; */
+        height: 70%;
+        cursor: pointer;
+    }
+
+    .card:hover{
+        /* border-color: #826eb5; */
+        width: 95%;
+        /* height: 270px; */
+        height: 70%;
+    }
+
+    .card_recording{
+        background-color: #fff;
+        color: #333;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+        width: 95%;
+        /* height: 270px; */
+        height: 70%;
+        cursor: default;
+    }
+
+    .card_recording:hover{
+        /* border-color: #826eb5; */
+        width: 95%;
+        /* height: 270px; */
+        height: 70%;
+    }
+
+}
 
 @media only screen and (max-width: 1399.98px){
     /* body{
