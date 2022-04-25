@@ -1022,6 +1022,19 @@ figcaption {
         height: 70%;
     }
 
+    .card_film{
+        background-color: #fff;
+        color: #333;
+        border-radius: 5px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        /* padding: 0; */
+        margin: 10px;
+        text-align: center;
+        width: 95%;
+        height: 70%;
+        cursor: default;
+    }
+
 }
 
 @media only screen and (max-width: 1399.98px){
