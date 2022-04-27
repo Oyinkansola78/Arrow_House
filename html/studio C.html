@@ -120,7 +120,7 @@
             <h3 class="text-custom text-resize mt-5">Creating an account gets you free perks like discount codes, and exclusive news before everyone else. Click the button below to create an account</h3>
         </div>
         <div class="d-grid gap-2 col-3 mx-auto">
-            <a class="btn rounded-pill btn-lg bluey-bg mt-5" type="button" href="#">Create an Account</a>
+            <a class="btn rounded-pill btn-lg bluey-bg mt-5" type="button" href="#" data-bs-toggle="modal" data-bs-target="#modalSignin" >Create an Account</a>
         </div>
     </div>
     <div class="equipment-list show-me-sm">
@@ -131,6 +131,85 @@
             <a class="btn rounded-pill btn-lg bluey-bg mt-5" type="button" href="#">Create an Account</a>
         </div>
     </div>
+    <div class="modal fade" id="modalSignin" tabindex="-1" aria-hidden="true" aria-labelledby="modal-title">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-5 shadow">
+                <div class="modal-header">
+                    <h3 class="modal-title text-center" id="modal-title">Sign up for free</h3>
+                    <!-- <h2 class="fw-bold mb-0">Sign up for free</h2> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-5 pt-0">
+                    <form class="">
+                      <div class="form-floating mb-3">
+                        <input type="email" class="form-control rounded-4" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="password" class="form-control rounded-4" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+                      <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Sign up</button>
+                      <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                      <hr class="my-4">
+                      <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                      <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-4" type="submit">
+                        <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
+                        Sign up with Twitter
+                      </button>
+                      <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-4" type="submit">
+                        <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"/></svg>
+                        Sign up with Facebook
+                      </button>
+                      <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-4" type="submit">
+                        <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"/></svg>
+                        Sign up with GitHub
+                      </button>
+                    </form>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="modal modal-signin position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalSignin" aria-hidden="true"> -->
+        <div class="modal-dialog" role="document">
+          <div class="modal-content rounded-5 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+              <!-- <h5 class="modal-title">Modal title</h5> -->
+              <h2 class="fw-bold mb-0">Sign up for free</h2>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+      
+            <div class="modal-body p-5 pt-0">
+              <form class="">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control rounded-4" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control rounded-4" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Sign up</button>
+                <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                <hr class="my-4">
+                <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-4" type="submit">
+                  <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
+                  Sign up with Twitter
+                </button>
+                <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-4" type="submit">
+                  <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"/></svg>
+                  Sign up with Facebook
+                </button>
+                <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-4" type="submit">
+                  <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"/></svg>
+                  Sign up with GitHub
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     <!-- <div class="container d-grid gap-2 col-3 mx-auto mt-5">
         <a type="button" class="btn btn-lg bluey-bg ml-2 px-4 py-3 mb-2 rounded-pill">Create an Account</a>   
     </div> -->
