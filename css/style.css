@@ -92,6 +92,21 @@ font-size: 22px;
     border: 1px solid #000 ;
     cursor: pointer;
 }
+
+.table-bg{
+    /* background-color: #826eb5; */
+    /* color:#fff; */
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000 ;
+    cursor: default;
+}
+
+.red-bg{
+    background-color: red;
+    color: #fff;
+}
+
 /* .bluey-bg:hover{
     background-color: #232464;
     color:#2b89c6;
