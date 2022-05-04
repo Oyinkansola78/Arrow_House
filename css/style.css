@@ -13,6 +13,15 @@ font-size: 22px;
     font-size: 16px;
 } */
 
+#mc_embed_signup{
+    background:#fff; clear:left; 
+    font-family: 'Montserrat', sans-serif;
+    /* font: 14px Helvetica,Arial,sans-serif;  */
+    width:400px;
+}
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
 .text-center{
     text-align: center;
 }
@@ -147,7 +156,7 @@ font-size: 22px;
 } */
 
 .img-resize_service{
-    height: 55vh;
+    height: 45vh;
 }
 
 .img-resize_gallery{
@@ -303,6 +312,7 @@ font-size: 22px;
     margin-top: 90px;
     width: 80%;
 }
+
 .card-services{
     /* background-color: #f5f5f3; */
     margin-top: 90px;
@@ -498,7 +508,7 @@ font-size: 22px;
 .bodyy {
     position: relative;
     width: 50%;
-  }
+}
   
   /* .imagey {
     display: block;
@@ -512,8 +522,8 @@ font-size: 22px;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 55vh;
-    width: 200%;
+    height: 45vh;
+    width: 170%;
     opacity: 0;
     transition: .5s ease;
     background-color: #fff;
@@ -540,7 +550,7 @@ font-size: 22px;
   .text-btn{
     position: absolute;
     top: 65%;
-    left: 40%;
+    left: 35%;
   }
 
   figure {
@@ -706,6 +716,10 @@ figcaption {
         /* background-color: indianred; */
     }
 
+    .show-no{
+        display: none;
+    }
+
     .intro-head{
         font-weight: 700;
         padding-top: 15px;
@@ -806,11 +820,39 @@ figcaption {
         margin-left: 20rem;
     }
 
+    .img-resize_service{
+        width: 130%;
+        height: 55vh;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 55vh;
+        width: 130%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #fff;
+        cursor: default;
+    }
+
+      .card-services{
+        /* background-color: #f5f5f3; */
+        margin-top: 90px;
+        width: 150%;
+        margin-left: 10px;
+        /* margin: auto; */
+        /* text-align: center; */
+    }
+
 }
 
 @media only screen and (max-width: 991px){
     body{
-        /* background-color: plum; */
+        background-color: plum;
     }   
 
     /* .show-md{
@@ -923,6 +965,63 @@ figcaption {
     .show-me-grid-md{
         display: grid;
     }
+
+    .img-resize_service{
+        width: 150%;
+        height: 55vh;
+    }
+
+    .bodyyy {
+        /* position: relative; */
+        width: 80%;
+    }
+
+    .bodyyy img {
+        /* position: relative; */
+        opacity: 0.9;
+    }
+
+    .overlayy {
+        width: 100%;
+        position: relative;
+        margin-top: -50%;
+        left: 100px;
+        top: -40px;
+        color: #fff;
+    }
+
+    .text-btn{
+        position: absolute;
+        top: 160%;
+        left: 35%;
+    }
+
+    .card-services{
+        /* background-color: #f5f5f3; */
+        margin-top: 90px;
+        width: 150%;
+        margin-left: 10px;
+        /* margin: auto; */
+        /* text-align: center; */
+    }
+
+    .text {
+        color: #fff;
+        font-size: 20px;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        width: 90%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: justify;
+    }
+
+    .bodyy:hover .overlay {
+        opacity: 1;
+      }
+      
 
 }
 
