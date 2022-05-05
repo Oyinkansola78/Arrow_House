@@ -625,6 +625,14 @@ figcaption {
     display: none;
 }
 
+#nav-hide{
+    display: none;
+}
+
+#nav-sm{
+    display: none;
+}
+
 
 
 /* .no-grid{
@@ -640,6 +648,12 @@ figcaption {
     }
 }
 
+@media only screen and (max-width: 1220px) and (min-width: 1040px) {
+    body{
+        /* background-color: darkcyan; */
+        /* display: none; */
+    }
+}
 
 @media only screen and (max-width: 1284px){
     body{
@@ -647,6 +661,14 @@ figcaption {
     }
 
     #nav-show{
+        display: none;
+    }
+
+    #nav-hide{
+        display: block;
+    }
+
+    #nav-sm{
         display: none;
     }
 
@@ -860,9 +882,23 @@ figcaption {
 
 }
 
+@media only screen and (max-width: 980px){
+    body{
+        /* background-color: darkgoldenrod; */
+    }
+
+    #nav-hide{
+        display: none;
+    }
+
+    #nav-sm{
+        display: block;
+    }
+}
+
 @media only screen and (max-width: 991px){
     body{
-        background-color: plum;
+        /* background-color: plum; */
     }   
 
     /* .show-md{
