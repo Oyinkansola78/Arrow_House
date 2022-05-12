@@ -32,6 +32,18 @@ font-size: 22px;
     border-radius: 5px;
 }
 
+.widthh3{
+    width:400px;
+    border: 1px solid #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.widthh3 > img{
+    object-fit: cover;
+    width: 100%;
+}
+
 .text-center{
     text-align: center;
 }
@@ -386,6 +398,11 @@ font-size: 22px;
 
 .text-custom-head{
     line-height: 1.9;
+}
+
+.text-custom-head2{
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 .clean-list{
