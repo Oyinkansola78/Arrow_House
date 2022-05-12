@@ -329,6 +329,20 @@ font-size: 22px;
     /* padding-left: 20px; */
 }
 
+.card_mixing{
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    /* margin: 10px; */
+    /* text-align: center; */
+    width: 40%;
+    height: 550px;
+    cursor: default;
+    /* padding-left: 20px; */
+}
+
 .pr{
     padding-right: 20px;
 }
@@ -377,6 +391,21 @@ font-size: 22px;
     text-align: center;
     max-width: 90%;
     width: 80%;
+    /* height: 370px; */
+    /* cursor: pointer; */
+}
+
+.studio_tour_card2{
+    /* height: 500px; */
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    /* padding: 20px;
+    margin: 10px; */
+    text-align: center;
+    /* max-width: 90%;
+    width: 80%; */
     /* height: 370px; */
     /* cursor: pointer; */
 }
@@ -536,6 +565,22 @@ font-size: 22px;
     object-fit: cover;
     width: 100%;
     /* max-height: 100%; */
+}
+
+.border_top_left{
+    border-top-left-radius: 3%;
+}
+
+.border_bottom_left{
+    border-bottom-left-radius: 3%;
+}
+
+.border_top_right{
+    border-top-right-radius: 3%;
+}
+
+.border_bottom_right{
+    border-bottom-right-radius: 3%;
 }
 
 .intro-top{
