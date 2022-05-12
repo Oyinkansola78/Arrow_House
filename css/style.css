@@ -44,6 +44,16 @@ font-size: 22px;
     width: 100%;
 }
 
+.widthh4{
+    border: 1px solid #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.widthh4 > img{
+    object-fit: cover;
+    width: 100%;
+}
+
 .text-center{
     text-align: center;
 }
@@ -127,9 +137,9 @@ font-size: 22px;
 .table-bg{
     /* background-color: #826eb5; */
     /* color:#fff; */
-    background-color: #000;
+    background-color: red;
     color: #fff;
-    border: 1px solid #000 ;
+    border: 1px solid red ;
     cursor: default;
 }
 
