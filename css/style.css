@@ -38,6 +38,11 @@ font-size: 22px;
     border-radius: 10px;
 }
 
+.sol{
+    width: 135px;
+    height: 87px;
+}
+
 .widthh3 > img{
     object-fit: cover;
     width: 100%;
