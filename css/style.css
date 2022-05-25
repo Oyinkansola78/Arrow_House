@@ -333,7 +333,7 @@ font-size: 22px;
     margin: 10px;
     text-align: center;
     width: 30%;
-    height: 350px;
+    height: 370px;
     cursor: default;
 }
 
@@ -582,7 +582,7 @@ font-size: 22px;
     grid-template-columns: repeat(2,1fr);
     gap: 5px;
 }
-
+  
 .grid3 > img {
     object-fit: cover;
     width: 100%;
