@@ -39,7 +39,7 @@ font-size: 22px;
 }
 
 .sol{
-    width: 135px;
+    width: 150px;
     height: 80px;
 }
 
@@ -230,6 +230,11 @@ font-size: 22px;
 .text-resize{
     text-align: left;
     font-size: 20px;
+    /* font-weight: bold; */
+}
+.text-resize2{
+    text-align: left;
+    font-size: 21px;
     /* font-weight: bold; */
 }
 
