@@ -224,7 +224,8 @@ font-size: 22px;
 }
 
 .round-img{
-    max-width: 70%;
+    max-width: 50%;
+    border-radius: 50%;
 }
 
 .text-resize{
