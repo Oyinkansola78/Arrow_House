@@ -105,6 +105,23 @@ font-size: 22px;
     color: #fff;
 }
 
+.bluey-s-bg{
+    /* background-color: #826eb5; */
+    /* color:#fff; */
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #fff ;
+}
+
+.bluey-s-bg:hover{
+    /* background-color: #826eb5; */
+    /* color:#fff; */
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000 ;
+    cursor: pointer;
+}
+
 .bluey-bg{
     /* background-color: #826eb5; */
     /* color:#fff; */
@@ -376,6 +393,16 @@ font-size: 22px;
     /* padding-left: 20px; */
 }
 
+.services-card{
+    background-image: url(../img/recording_with_an_engineer_overview.jpg);
+    height: 50vh;
+}
+
+.services-card2{
+    position: relative;
+    width: 30vw;
+}
+
 .pr{
     padding-right: 20px;
 }
@@ -625,12 +652,6 @@ font-size: 22px;
     width: 50%;
 }
   
-  /* .imagey {
-    display: block;
-    width: 100%;
-    height: auto;
-  } */
-  
   .overlay {
     position: absolute;
     top: 0;
@@ -648,12 +669,16 @@ font-size: 22px;
   .bodyy:hover .overlay {
     opacity: 0.9;
   }
+
+  .opaque_img{
+      opacity: 0.9;
+  }
   
   .text {
-    color: #333;
+    color: #fff;
     font-size: 20px;
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 50%;
     width: 90%;
     -webkit-transform: translate(-50%, -50%);
