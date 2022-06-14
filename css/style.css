@@ -403,6 +403,11 @@ font-size: 22px;
     width: 30vw;
 }
 
+.services-card3{
+    position: relative;
+    width: 50vw;
+}
+
 .pr{
     padding-right: 20px;
 }
@@ -687,10 +692,29 @@ font-size: 22px;
     text-align: justify;
   }
 
+  .text2 {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    width: 90%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: justify;
+  }
+
   .text-btn{
     position: absolute;
     top: 65%;
     left: 35%;
+  }
+
+  .text-btn2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
   }
 
   figure {
@@ -1157,14 +1181,6 @@ figcaption {
         opacity: 0.9;
     }
 
-    .overlayy {
-        width: 100%;
-        position: relative;
-        margin-top: -50%;
-        left: 100px;
-        top: -40px;
-        color: #fff;
-    }
 
     .text-btn{
         position: absolute;
@@ -1193,12 +1209,6 @@ figcaption {
         transform: translate(-50%, -50%);
         text-align: justify;
     }
-
-    .bodyy:hover .overlay {
-        opacity: 1;
-      }
-      
-
 }
 
 @media only screen and (max-width: 767.98px){
