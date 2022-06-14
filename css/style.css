@@ -58,6 +58,10 @@ font-size: 22px;
     width: 100%;
 }
 
+.h-reduced{
+    height: 10%;
+}
+
 .text-center{
     text-align: center;
 }
@@ -617,6 +621,7 @@ font-size: 22px;
 .grid2 > img {
     object-fit: cover;
     width: 100%;
+    height: 250px;
     /* max-height: 100%; */
 }
 
