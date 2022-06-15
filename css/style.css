@@ -249,6 +249,10 @@ font-size: 22px;
     border-radius: 50%;
 }
 
+.mic_img{
+    width: 90%;
+}
+
 .text-resize{
     text-align: left;
     font-size: 20px;
@@ -720,6 +724,12 @@ font-size: 22px;
     position: absolute;
     top: 60%;
     left: 50%;
+  }
+
+  .text-btn-studios{
+    position: absolute;
+    top: 450%;
+    left: 8%;
   }
 
   figure {
