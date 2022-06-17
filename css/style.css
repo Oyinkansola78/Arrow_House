@@ -58,6 +58,16 @@ font-size: 22px;
     width: 100%;
 }
 
+.widthh5{
+    border: 1px solid #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.widthh5 > img{
+    object-fit: cover;
+    width: 100%;
+}
+
 .text-center{
     text-align: center;
 }
