@@ -13,7 +13,8 @@ font-size: 22px;
 } */
 
 #mc_embed_signup{
-    background:#fff; clear:left; 
+    background:#fff; 
+    clear:left; 
     font-family: 'Montserrat', sans-serif;
     /* width:400px; */
     font-size: 18px;
@@ -29,6 +30,20 @@ font-size: 22px;
     border: 1px solid #fff;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+}
+
+.widthh2_2{
+    width:500px;
+    border: 1px solid #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.widthh2_3{
+    width:350px;
+    border: 1px solid #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 .widthh3{
