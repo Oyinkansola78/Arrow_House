@@ -374,6 +374,30 @@ font-size: 22px;
     cursor: pointer;
 }
 
+.card:hover{
+    border-color: #826eb5;
+    width: 21%;
+    height: 360px;
+}
+
+.card_bundle{
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 22%;
+    height: 300px;
+    cursor: pointer;
+}
+
+.card_bundle:hover{
+    border: 1px solid #826eb5;
+    /* border-color: #826eb5; */
+}
+
 .card_recording{
     background-color: #fff;
     color: #333;
@@ -452,12 +476,6 @@ font-size: 22px;
 
 .pr{
     padding-right: 20px;
-}
-
-.card:hover{
-    border-color: #826eb5;
-    width: 21%;
-    height: 360px;
 }
 
 .card2{
