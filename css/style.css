@@ -201,8 +201,8 @@ font-size: 22px;
     z-index:100;
 }
 
-.my-float{
-	margin-top:16px;
+.back_to_top:hover{
+    color: #333;
 }
 
 .bluey-bg-whatsapp{
@@ -400,8 +400,8 @@ font-size: 22px;
 }
 
 .card_bundle{
-    background-color: #fff;
-    color: #333;
+    background-color: red;
+    color: #fff;
     border-radius: 5px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     padding: 10px;
@@ -410,6 +410,7 @@ font-size: 22px;
     width: 22%;
     height: 300px;
     cursor: pointer;
+    border: 1px thin #333;
 }
 
 .card_bundle:hover{
