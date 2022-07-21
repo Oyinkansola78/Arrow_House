@@ -101,6 +101,10 @@ font-size: 22px;
     text-align: center;
 }
 
+.justified{
+    text-align: justify;
+}
+
 .center{
     margin-left: 34rem;
     margin-bottom: 5px;
