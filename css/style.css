@@ -12,6 +12,13 @@ font-size: 22px;
     font-size: 16px;
 } */
 
+.btn_overlay{
+    position: absolute;
+    /* width: 30%; */
+    left: 40%;
+    top: 55%
+}
+
 #mc_embed_signup{
     background:#fff; 
     clear:left; 
@@ -161,6 +168,24 @@ font-size: 22px;
     background-color: #fff;
     color: #000;
     border: 1px solid #000 ;
+}
+
+.bluey-bg2{
+    /* background-color: #826eb5; */
+    /* color:#fff; */
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000 ;
+    cursor: pointer;
+}
+
+.bluey-bg2:hover{
+    /* background-color: #826eb5; */
+    /* color:#fff; */
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000 ;
+    cursor: pointer;
 }
 
 .floaty{
