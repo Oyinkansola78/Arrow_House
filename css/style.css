@@ -19,6 +19,13 @@ font-size: 22px;
     top: 55%
 }
 
+.btn_overlay2{
+    position: absolute;
+    /* width: 30%; */
+    left: 35%;
+    top: 75%
+}
+
 #mc_embed_signup{
     background:#fff; 
     clear:left; 
