@@ -67,6 +67,12 @@ font-size: 22px;
     /* border-radius: 10px; */
 }
 
+.widthh3_2{
+    width:360px;
+    border: 1px solid #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
 .sol{
     width: 150px;
     height: 80px;
